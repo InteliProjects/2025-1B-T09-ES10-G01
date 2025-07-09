@@ -1,0 +1,19 @@
+{
+  "name": "servidor-express-simples",
+  "version": "1.0.0",
+  "description": "Servidor Express com uma rota /rota-exemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
