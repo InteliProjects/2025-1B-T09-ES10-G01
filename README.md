@@ -2,27 +2,14 @@
 
 # Sumário
 
-- [1. Introdução](#1-introdução)
-  - [1.1 Objetivo do Documento](#11-objetivo-do-documento)
-
-- [2. Contextualização do Projeto](#2-contextualização-do-projeto)
-  - [2.1 Apresentação Geral](#21-apresentação-geral)
-  - [2.2 Parceiros envolvidos](#22-parceiros-envolvidos)
-
-- [3. Estrutura do Projeto](#3-estrutura-do-projeto)
-  - [3.1 Esteira CI/CD](#31-esteira-cicd)
-  - [3.2 Design System e Segurança](#32-design-system-e-segurança)
-  - [3.3 Estratégia de Testes](#33-estratégia-de-testes)
-  - [3.4 Métricas e Observabilidade](#34-métricas-e-observabilidade)
-  - [3.5 Boas Práticas e Aprendizados](#35-boas-práticas-e-aprendizados)
-
-- [4. Tecnologias e Ferramentas Utilizadas](#4-tecnologias-e-ferramentas-utilizadas)
-
-- [5. Equipe de Desenvolvimento](#5-equipe-de-desenvolvimento)
-  - [5.1 Estudantes](#51-estudantes)
-  - [5.2 Professores e Orientadores](#52-professores-e-orientadores)
-
-- [6. Licença](#6-licença)
+- [Projeto de Fluxo Contínuo CI/CD - TimeNow](#projeto-de-fluxo-contínuo-cicd---timenow)
+- [Objetivo do Projeto](#objetivo-do-projeto)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
+- [👨‍💻 Time de Desenvolvimento](#-time-de-desenvolvimento)
+- [👨‍🏫 Professores e Orientadores](#-professores-e-orientadores)
+- [Instruções para Execução do Projeto](#instruções-para-execução-do-projeto)
+- [📝 Licença](#-licença)
 
 # Projeto de Fluxo Contínuo CI/CD - TimeNow
 
@@ -55,7 +42,6 @@ O projeto foi desenvolvido utilizando uma infraestrutura moderna e integrada, co
 
 As **pipelines CI/CD** foram configuradas no Azure DevOps e organizadas por repositório (`repo` sendo a principal, `kyno-backend` e `kyno-frontend` para fins informativos), permitindo automação desde o commit até o deploy, com monitoramento e rastreabilidade das execuções. O ambiente está acessível por meio do seguinte link, com permissões concedidas aos membros da **TimeNow** e do **Inteli**: [Pipelines no Azure DevOps – TimeNow & Inteli](https://dev.azure.com/TimenowDigital/Inteli%20e%20Timenow%20TAP10%20-%20G1/_build)
 
-
 ---
 
 ## Tecnologias e Ferramentas
@@ -69,8 +55,9 @@ As **pipelines CI/CD** foram configuradas no Azure DevOps e organizadas por repo
 | Métricas & Monitoramento | Prometheus, Grafana, Locust           |
 | Organização e Planejamento | Trello                      |
 
+---
 
-### 👨‍💻 Time de Desenvolvimento
+## 👨‍💻 Time de Desenvolvimento
 
 | Nome                      | LinkedIn |
 |---------------------------|----------|
@@ -81,10 +68,9 @@ As **pipelines CI/CD** foram configuradas no Azure DevOps e organizadas por repo
 | Luigi Otávio Neves Macedo | [Perfil](https://www.linkedin.com/in/luigiotavio/) |
 | Paula Zanella Piva        | [Perfil](https://www.linkedin.com/in/paulapiva03/) |
 
-</td>
-<td>
+---
 
-### 👨‍🏫 Professores e Orientadores
+## 👨‍🏫 Professores e Orientadores
 
 | Nome              | Função                   | LinkedIn |
 |-------------------|--------------------------|----------|
@@ -95,18 +81,15 @@ As **pipelines CI/CD** foram configuradas no Azure DevOps e organizadas por repo
 | José Romualdo     | Professor de Programação | [Perfil](https://www.linkedin.com/in/jose-romualdo/) |
 | Fernando Pizzo    | Professor de Matemática  | [Perfil](https://www.linkedin.com/in/fernando-pizzo-208b526a/) |
 
-</td>
-</tr>
-</table>
-
 ---
 
-A documentação não inclui links diretos para os arquivos dentro da pasta `docs/`, como por exemplo:
+## Instruções para Execução do Projeto
 
-🔗 [docs/docs.md](https://github.com/Inteli-College/2025-1B-T09-ES10-G01/blob/main/docs/docs.md)  
-🔗 [docs/reportexecutivo.md](https://github.com/Inteli-College/2025-1B-T09-ES10-G01/blob/main/docs/reportexecutivo.md)
+Para executar o projeto, siga as orientações descritas nas seções a seguir da documentação:
 
-Esses links ajudariam o leitor a acessar conteúdos mais detalhados sobre o projeto.
+- 🔧 [6. Configuração Esteira de CI](https://github.com/InteliProjects/2025-1B-T09-ES10-G01/blob/main/docs/docs.md#6-configura%C3%A7%C3%A3o-esteira-de-ci)
+- 🚀 [7. Configuração da Esteira CD](https://github.com/InteliProjects/2025-1B-T09-ES10-G01/blob/main/docs/docs.md#7-configura%C3%A7%C3%A3o-da-esteira-cd)
+
 ---
 
 ## 📝 Licença
@@ -136,4 +119,3 @@ Este projeto foi desenvolvido pelos estudantes exclusivamente para fins educacio
          src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
   </a>
 </p>
-
